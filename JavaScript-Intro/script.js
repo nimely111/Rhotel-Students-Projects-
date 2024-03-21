@@ -25,7 +25,7 @@
 // A type is a particular data structure
 // JS has 8 build-in types 
 // 7 primitives and 1 object type 
-//Primitive types represents a single immutable value - this means once it's set it can be change. value becomes read only
+//Primitive types represents a single immutable value - this means once it's set it can't be change. value becomes read only
 //you can create another value based on the existing one in memory
 
 
