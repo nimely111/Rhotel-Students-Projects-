@@ -70,13 +70,13 @@ console.log(number)
  *  
  * 
  * 
- * browser -- clien ISP (Internet service provider) ---  DNS (dOMAIN NAME SERVER)
+ * browser -- clien ISP (Internet service provider) ---  DNS (DOMAIN NAME SERVER)
  */
 
 
 
-// using
-let firstName = 'Samuel'; // string
+// using string
+let firstName = 'Samuel'; 
 let lastName = "Nimely";
 let myContact = '0777973774'
 let myBook = 'Book';

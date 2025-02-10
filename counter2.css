@@ -1,0 +1,12 @@
+
+
+.error{
+    color: red;
+}
+
+
+.container .add, .minus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

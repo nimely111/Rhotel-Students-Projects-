@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fd;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+.container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 80%;
+}
+
+.header > .logo{
+  display: inline-flex;
+  height: 75px;
+  width: 75px;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+.header {
+  background-color: #07cf85;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.header input:focus {
+  outline: none;
+}
+
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  padding: 20px;
+  border-bottom: 15px solid #07cf85;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.user-list .user-info {
+  margin-left: 10px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 12px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 2px solid #07cf85;
+}
+
+.user-list li.hide {
+  display: none;
+}
+
+
+/* modal styling */
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box from the top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(7, 207, 133); /* Fallback color */
+  background-color: rgb(7, 207, 133, 0.4); /* green w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  display: flex;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+  height: 29px;
+  width: 29px;
+  padding: 0 0 0 4px;
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  background-color: #ff0000;
+  text-decoration: none;
+  cursor: pointer;
+  height: 29px;
+  width: 29px;
+  padding: 0 0 0 4px;
+}
+
+.modal-content table{
+    width: 75%;
+    height: 20%;
+    text-align: 
+    center;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 5px 7px;
+    margin: 0 0 0 15px;
+}
+
+.media{
+  width: 50px;
+  height: 50px;
+}
+
+img.profile{
+  height: 150px;
+  width: 150px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
